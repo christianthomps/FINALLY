@@ -6,10 +6,17 @@
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
           <element id="module-output" name="RETROCINEMA" />
+          <element id="library" level="module" name="apache-tomcat-9.0.13" module-name="RETROCINEMA" />
+          <element id="library" level="project" name="apache-tomcat-8.5" />
         </element>
         <element id="directory" name="lib">
           <element id="file-copy" path="$USER_HOME$/Desktop/Tools/javax.mail.jar" />
           <element id="file-copy" path="$USER_HOME$/Desktop/Tools/taglibs-standard-impl-1.2.5.jar" />
+          <element id="library" level="module" name="javax.servlet.jsp.jstl.jar" module-name="RETROCINEMA" />
+          <element id="library" level="module" name="javax.annotation.jar" module-name="RETROCINEMA" />
+          <element id="library" level="module" name="javax.jms.jar" module-name="RETROCINEMA" />
+          <element id="library" level="module" name="javax.resource.jar" module-name="RETROCINEMA" />
+          <element id="library" level="module" name="javax.transaction.jar" module-name="RETROCINEMA" />
         </element>
       </element>
     </root>

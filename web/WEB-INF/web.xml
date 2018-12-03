@@ -86,7 +86,7 @@
 
     <servlet>
         <servlet-name>processTicketServlet</servlet-name>
-        <servlet-class>com.mvc.controller.processBookingServlet</servlet-class>
+        <servlet-class>com.mvc.controller.processTicketServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>processTicketServlet</servlet-name>

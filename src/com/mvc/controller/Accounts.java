@@ -6,7 +6,7 @@
  * October 18 2018: Added getters/setters code
  * November 31 2018: Added JavaDoc comments
  */
-
+package com.mvc.controller;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;

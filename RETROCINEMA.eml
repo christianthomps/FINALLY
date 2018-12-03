@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component inherit-compiler-output="true" jdk="11" jdk_type="JavaSDK">
+	<output-test url="file://$MODULE_DIR$/out/test/RETROCINEMA"/>
+	<exclude-output/>
+	<contentEntry url="file://$MODULE_DIR$"/>
+	<lib name="Java EE 6" scope="PROVIDED"/>
+	<lib name="Tomcat 8" scope="PROVIDED"/>
+	<lib name="javax.mail.jar" scope="PROVIDED"/>
+	<lib name="taglibs-standard-impl-1.2.5.jar" scope="PROVIDED"/>
+	<lib name="TomEE 9.0.13" scope="PROVIDED"/>
+	<levels>
+		<level name="Java EE 6" value="project"/>
+		<level name="Tomcat 8" value="application_server_libraries"/>
+		<level name="Java EE 6-Java EE 6" value="project"/>
+		<level name="TomEE 9.0.13" value="application_server_libraries"/>
+		<level name="apache-tomcat-8.5" value="project"/>
+	</levels>
+</component>

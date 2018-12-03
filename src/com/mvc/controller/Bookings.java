@@ -6,6 +6,7 @@
  * October 19 2018: Added getters/setters code
  * November 30 2018: Added JavaDoc comments
  */
+package com.mvc.controller;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
@@ -233,8 +234,27 @@ public class Bookings {
 		public int getPromo() {
 			return PROMO;
 		}
-		public void setPromo(int p) {
-			
-			this.PROMO = p;
-		}
+
+	public void setBookingID(int b) {
+		this.BOOKINGID = BOOKINGID;
 	}
+	public void setUserID(int UID) {
+		this.USERID = USERID;
+	}
+	public void setShowingID(int s) {
+		this.SHOWINGID = SHOWINGID;
+	}
+	public void setPaymentID(int p) {
+		this.PAYMENTID = PAYMENTID;
+	}
+	public void setNumOfTickets(int n) {
+		this.NUMOFTICKETS = NUMOFTICKETS;
+	}
+	public void setTotalPrice(int n) {
+		this.TOTALPRICE = TOTALPRICE;
+	}
+	public void setPromo(int p) {
+		this.PROMO = PROMO;
+	}
+}
+

@@ -6,7 +6,7 @@
  * October 19 2018: Added getters/setters code
  * November 30 2018: Added JavaDoc comments
  */
-
+package com.mvc.controller;
 import java.sql.*;
 import java.util.ArrayList;
 

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Java EE 6"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Tomcat 8"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="var" path="USER_HOME/Desktop/Tools/javax.mail.jar"/>
+	<classpathentry kind="var" path="USER_HOME/Desktop/Tools/taglibs-standard-impl-1.2.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Christian/Desktop/Tools/apache-tomcat-9.0.13/lib/servlet-api.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Java EE 6-Java EE 6"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/TomEE 9.0.13"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/apache-tomcat-8.5"/>
+	<classpathentry kind="output" path="out/production/RETROCINEMA"/>
+</classpath>
